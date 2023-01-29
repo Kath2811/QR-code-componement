@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+.flex-container {
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    position: relative;
+    height: 480px;
+    margin: 150px auto 150px auto;
+    border-radius: 1.35rem;
+    padding: 1.075rem;
+    box-shadow: 5px 5px 45px hsl(220, 15%, 80%);
+
+}
+
+p{
+    font-weight: 400;
+    color: hsl(0, 0%, 57%);
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.titre {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 22px;
+}
+
+img{
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+}
+
